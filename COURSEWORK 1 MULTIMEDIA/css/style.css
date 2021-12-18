@@ -1,0 +1,86 @@
+body{
+  font-family: Helvetica; /*changes font*/
+  margin: 0; /*removes margin from the page*/
+  background-color: #010620; /*site background color*/
+  color: #bbd5e6; /*text color*/
+}
+.header{
+  text-align: center;
+  font-size: 25px;
+  padding: 3px 0px; /*sets top and bottom margin to 3px*/
+  background-color: #010620; /*background color*/
+  color: white; /*text color*/
+  text-shadow: 2px 2px 4px #bbd5e6; /*text shadow with blur*/
+}
+.menubox{
+  display: flex; /*block flex container*/
+  background-color: #bbd5e6; /*background color*/
+  justify-content: center;
+  font-weight: bold;
+  color: #010620; /*text color*/
+}
+nav a{
+  text-align: center;
+  padding: 12px; /*gives 12px padding in every direction*/
+  text-decoration: none; /*removes underline from links*/
+}
+nav a:hover{
+  background-color: #white; /*changes hover background color*/
+}
+
+.synopsis{
+  margin: 5px 10px; /*margin (outside) and padding (inside)*/
+  padding: 5px 10px;
+  text-align: justify;
+}
+
+.riley{
+  float: left; /*float property allows text to go around image*/
+  min-width: 80px; /*sets minimum width of the image*/
+  width: 40%; /*width percentage of the original image*/
+  margin: 5px; /*image is given px margin so the text won't clip with it*/
+}
+
+.cast{
+  float: left; /*float property allows text to go around image*/
+  min-width: 90px; /*sets minimum width of the image*/
+  width: 40%; /*width percentage of the original image*/
+  margin: 0px 5px 0px 5px; /*image is given 5px margin on left and right and 0px on top and bottom*/
+}
+.castname{
+  text-align: center;
+  margin-top: 10px; /*top margin gives some space from other elements*/
+  margin-bottom: 5px; /*bottom margin gives some space from descriptions*/
+  color: white; /*text color*/
+  text-shadow: 1px 1px 2px #bbd5e6; /*text shadow with blur*/
+}
+
+.description{
+  text-align: justify;
+  margin: 8px 4px 0px 4px; /*top margin of 8px to give some space between paragraphs and headers, right and left margin of 4px to give space between paragraph and site border*/
+
+}
+
+.trailer{
+  margin: 3px 10px; /*10px margin on both sides - video won't be a full-page wide, top and bottom 3px*/
+}
+
+footer{
+  font-size: 14px;
+  padding: 7px 0px; /*top and bottom padding of 7px, left and right 0px*/
+  background-color: #bbd5e6; /*background color*/
+  color: #010620; /*text color*/
+  font-weight: bold;
+}
+
+img{
+  width:100%;
+  border-radius: 3px; /*image border*/
+  box-shadow: 2px 2px 2px #000; /*2px shadow around image to make it pop off more*/
+}
+
+.controls{
+  display: inline;
+
+
+}
